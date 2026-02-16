@@ -54,6 +54,7 @@ Build from these categories. Not exhaustive — add movements as they show up in
 
 **Bodyweight:**
 - Push-ups (standard, diamond, decline, deficit)
+- Alternating T push-ups (on KBs — push-up + rotate to T-shape, alternate sides)
 - Pull-ups / chin-ups (if bar available)
 - Air squats / jump squats
 - Burpees (standard, lateral, over-KB)
@@ -72,12 +73,18 @@ Build from these categories. Not exhaustive — add movements as they show up in
 - Broad jumps
 - High knees / butt kickers
 
+**Hill Constraints:**
+The athlete lives at the TOP of the hill. This matters for workout logistics — interleaving hill sprints with KB work means hauling gear downhill first. Prefer one of these patterns:
+- **Buy-in / Cash-out:** Hill sprints as a standalone block at the start or end of the workout. Sprint down from home, walk up to recover, or vice versa.
+- **Separator:** Use the hill between distinct blocks (e.g., finish Part A at home, sprint down and walk up, begin Part B). Don't interleave sprints with movements that need equipment at the bottom.
+- **Standalone sprint session:** Dedicate an entire workout to hill sprint intervals without KB work.
+
 ## Workout File Format
 
-Keep it flat in the repo root for now. One markdown file per workout, named by date.
+Workouts live in `workouts/`, one markdown file per workout, named by date.
 
 ```
-YYYY-MM-DD.md
+workouts/YYYY-MM-DD.md
 ```
 
 ### Template
@@ -97,7 +104,12 @@ YYYY-MM-DD.md
 
 ## Notes
 [scaling options, intent, anything worth remembering]
+
+## Journal
+[post-workout feedback: what changed, what worked, what to adjust next time]
 ```
+
+The Journal section is filled in after the workout. It captures what actually happened vs. what was prescribed — modifications, intensity feel, and ideas for future sessions. This is the primary feedback loop for improving workout design.
 
 ## Athlete Profile
 
